@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Vandana Fashion Designer - Palwal</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+body{font-family: 'Poppins', Arial; background:#f1f3f6; margin:0;}
+.topbar{background:#fff; padding:12px 30px; box-shadow:0 2px 4px rgba(0,0,0,0.1); font-size:24px; font-weight:700; color:#0089cf;}
+.container{max-width:1150px; margin:20px auto; padding:0 20px; display:flex; gap:20px;}
+.main{flex:2;}
+.sidebar{flex:1;}
+.card{background:#fff; padding:25px; border-radius:12px; margin-bottom:20px; box-shadow:0 4px 12px rgba(0,0,0,0.05);}
+h1{font-size:24px; margin:0 0 5px;}
+.rating{background:#008000; color:#fff; padding:4px 10px; border-radius:5px; font-weight:600; font-size:14px;}
+.btn{padding:10px 18px; border:none; border-radius:6px; cursor:pointer; margin-right:10px; text-decoration:none; display:inline-block; font-weight:600;}
+.btn-contact{background:#007bff; color:#fff;}
+.btn-deal{background:#ff5722; color:#fff;}
+.tabs span{margin-right:25px; font-weight:600; padding-bottom:8px; cursor:pointer; color:#555; border-bottom:3px solid transparent;}
+.tabs.active{border-bottom:3px solid #0089cf; color:#0089cf;}
+.photo-grid{display:grid; grid-template-columns: repeat(4, 1fr); gap:15px; margin-top:15px;}
+.photo-grid img{width:100%; height:140px; object-fit:cover; border-radius:8px; transition:0.3s;}
+.photo-grid img:hover{transform:scale(1.05);}
+.product-card{display:flex; gap:15px; border:1px solid #eee; padding:15px; border-radius:10px; margin-bottom:15px;}
+.product-card img{width:160px; height:160px; object-fit:cover; border-radius:8px;}
+.price{color:#e91e63; font-size:18px; font-weight:700;}
+.tag{display:inline-block; background:#fce4ec; color:#e91e63; padding:4px 10px; border-radius:15px; font-size:12px; margin:3px 3px 8px 0;}
+</style>
+</head>
+<body>
+
+<div class="topbar">Justdial Clone</div>
+
+<div class="container">
+  <div class="main">
+    <div class="card">
+      <h1>Vandana Fashion Designer</h1>
+      <p><span class="rating">4.8 ★</span> 45 Ratings • Ramnagar, Palwal</p>
+      <a href="tel:[98XXXXXXXX]" class="btn btn-contact">+ Add Contact</a>
+      <a href="https://wa.me/91[98XXXXXXXX]" class="btn btn-deal">Best Deal</a>
+
+      <div class="tabs" style="margin-top:25px;">
+        <span class="active">Overview</span> <span>Photos</span> <span>Products</span> <span>Reviews</span>
+      </div>
+    </div>
+
+    <!-- PHOTOS SECTION - TUMHARI 6 PHOTOS -->
+    <div class="card">
+      <h3>Gallery</h3>
+      <div class="photo-grid">
+        <img src="C:\Users\DELL\Downloads\WhatsApp Image 2026-07-24 at 9.53.39 AM.jpeg" alt="Sketch Collection">
+        <img src="C:\Users\DELL\Downloads\WhatsApp Image 2026-07-24 at 9.53.38 AM (3).jpeg"Evening Gown">
+        <img src="C:\Users\DELL\Downloads\WhatsApp Image 2026-07-24 at 9.53.38 AM (2).jpeg"Mannequins">
+        <img src="C:\Users\DELL\Downloads\WhatsApp Image 2026-07-24 at 9.53.38 AM (1).jpeg" alt="Golden Scissors">
+        <img src="C:\Users\DELL\Downloads\WhatsApp Image 2026-07-24 at 9.53.37 AM (1).jpeg" alt="Measuring Tools">
+        <img src="C:\Users\DELL\Downloads\WhatsApp Image 2026-07-24 at 9.53.37 AM.jpeg" alt="Tutu Dress">
+      </div>
+    </div>
+
+    <!-- PRODUCTS SECTION with Price Color Quality -->
+    <div class="card">
+      <h3>Exhibition Collection</h3>
+
+      <div class="product-card">
+        <img src="C:\Users\DELL\Downloads\WhatsApp Image 2026-07-24 at 9.53.39 AM.jpeg" alt="">
+        <div>
+          <h4>Evening Gown - Black & Peach</h4>
+          <p class="price">₹22,500</p>
+          <span class="tag">Color: Black + Peach</span>
+          <span class="tag">Quality: Satin + Sequin Work</span>
+          <p>Draped V-neck gown with floral embellishment. Custom fitting available.</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="C:\Users\DELL\Downloads\WhatsApp Image 2026-07-24 at 9.53.38 AM (3).jpeg" alt="">
+        <div>
+          <h4>Black & White Sketch Collection</h4>
+          <p class="price">₹8,999 - ₹15,999</p>
+          <span class="tag">Color: Black / White</span>
+          <span class="tag">Quality: Premium Crepe</span>
+          <p>Puff sleeve designer dress. Perfect for cocktail parties.</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="C:\Users\DELL\Downloads\WhatsApp Image 2026-07-24 at 9.53.38 AM (2).jpeg" alt="">
+        <div>
+          <h4>Colorful Mannequin Line</h4>
+          <p class="price">₹6,500 - ₹12,000</p>
+          <span class="tag">Color: Pink, Yellow, Red, White</span>
+          <span class="tag">Quality: Cotton Silk</span>
+          <p>Day wear to party wear. 6 colors available at stall.</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="C:\Users\DELL\Downloads\WhatsApp Image 2026-07-24 at 9.53.38 AM (1).jpeg" alt="">
+        <div>
+          <h4>Tutu & Evening Dress</h4>
+          <p class="price">₹18,000 - ₹35,000</p>
+          <span class="tag">Color: Black</span>
+          <span class="tag">Quality: Net + Embroidery</span>
+          <p>Hand-embroidered bodice with layered tulle skirt. Made to order.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="sidebar">
+    <div class="card">
+      <h3>Address</h3>
+      <p>Near sec 51 rawal international school,<br>faridabad-121005, Haryana</p>
+      <p>🕒 Opens in 24*7</p>
+      <p>📞 [89XXXXXXXX]</p>
+      <p>📧 <b>Email:</b> <a href="mailto:yourname@gmail.com">yourname@gmail.com</a></p>
+      <a href="#" class="btn btn-contact" style="width:100%; text-align:center; margin-top:10px;">Get info via SMS/Email</a>
+    </div>
+    <div class="card">
+      <h3>Exhibition</h3>
+      <p><b>Stall No:</b> A-12</p>
+      <p><b>Event:</b> Faridabad Fashion Expo 2026</p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
